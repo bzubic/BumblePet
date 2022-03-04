@@ -1,0 +1,197 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section colors */
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+div .colored-section {
+  background-color: #ef8172;
+}
+
+/* Heading */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  text-align: left;
+  padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.fab {
+  padding-right: 10px;
+}
+
+/* Title Image */
+
+.title-image {
+  background-color: transparent;
+  transform: rotate(25deg);
+  max-width: 60%;
+  position: absolute;
+  right: 23%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 8%;
+}
+
+.second {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.features-heading {
+  font-size: 1.5rem;
+}
+
+/* Testimonials Section */
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 40px 5px;
+}
+
+/* Pricing Section */
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-heading {
+  font-size: 1.5rem;
+  padding-top: 3%;
+}
+
+@media only screen and (max-width: 1028px) {
+  body {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* Call to action */
+
+.last-title {
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 1% 23%;
+  padding: 4%;
+}
+
+.last-button {
+  margin: auto 1% 5%;
+}
+
+/* Footer */
+
+.contact-icon {
+  color: grey;
+}
+
+.last-icon {
+  margin: 4% auto 2%;
+}
+
+.last-text {
+  margin-bottom: 5%;
+}
